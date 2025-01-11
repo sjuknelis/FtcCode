@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11CECF92C52CB340051E002 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C11CECF82C52CB340051E002 /* .gitignore */; };
+		C11CECFB2C52CC6F0051E002 /* UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CECFA2C52CC6F0051E002 /* UserContext.swift */; };
+		C11CECFE2C52D8150051E002 /* BlockDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CECFD2C52D8150051E002 /* BlockDisplayView.swift */; };
+		C11CED002C52D83D0051E002 /* DisplayItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CECFF2C52D83D0051E002 /* DisplayItemView.swift */; };
+		C11CED022C52D8500051E002 /* BlockAdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CED012C52D8500051E002 /* BlockAdditionView.swift */; };
+		C11CED052C52E8CE0051E002 /* CreateVariableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CED042C52E8CE0051E002 /* CreateVariableButtonView.swift */; };
+		C12865E42C5596E700ED1CAA /* TrashButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12865E32C5596E700ED1CAA /* TrashButtonView.swift */; };
+		C12865E62C559FB600ED1CAA /* GridBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12865E52C559FB600ED1CAA /* GridBackgroundView.swift */; };
+		C131E9CD2C459A3C00E9428D /* PlayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131E9CC2C459A3C00E9428D /* PlayButtonView.swift */; };
+		C13F90AA2C46E8C40059F01D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F90A92C46E8C40059F01D /* ContentView.swift */; };
+		C13F90AC2C4730130059F01D /* ConnectSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F90AB2C4730130059F01D /* ConnectSidebarView.swift */; };
+		C19D82822C45ED020010EA43 /* RobotSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19D82812C45ED020010EA43 /* RobotSocket.swift */; };
+		C19D82842C461AFC0010EA43 /* BlockParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19D82832C461AFC0010EA43 /* BlockParent.swift */; };
+		C1A2F8D72C51920B0093601C /* BlockColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2F8D62C51920B0093601C /* BlockColors.swift */; };
+		C1A2F8D92C5197B20093601C /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1A2F8D82C5197B20093601C /* PressStart2P-Regular.ttf */; };
+		C1B8429D2C2A1F530052E5A0 /* BlueSocketTestCommonLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C1B8429C2C2A1F530052E5A0 /* BlueSocketTestCommonLibrary */; };
+		C1B8429F2C2A1F530052E5A0 /* Socket in Frameworks */ = {isa = PBXBuildFile; productRef = C1B8429E2C2A1F530052E5A0 /* Socket */; };
+		C1D6EC772C290B3E00EF4A7B /* BlockProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6EC762C290B3E00EF4A7B /* BlockProps.swift */; };
+		C1D6EC792C299CD100EF4A7B /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6EC782C299CD100EF4A7B /* Program.swift */; };
+		C1D6EC7B2C29A6FB00EF4A7B /* IfExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6EC7A2C29A6FB00EF4A7B /* IfExtension.swift */; };
+		C1D6EC7F2C29B29E00EF4A7B /* BlockPropsImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6EC7E2C29B29E00EF4A7B /* BlockPropsImpl.swift */; };
+		C1E7B0BE2C25A63F00B7D3F1 /* FtcCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7B0BD2C25A63F00B7D3F1 /* FtcCodeApp.swift */; };
+		C1E7B0C02C25A63F00B7D3F1 /* ProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7B0BF2C25A63F00B7D3F1 /* ProgramView.swift */; };
+		C1E7B0C22C25A64000B7D3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E7B0C12C25A64000B7D3F1 /* Assets.xcassets */; };
+		C1E7B0C52C25A64000B7D3F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E7B0C42C25A64000B7D3F1 /* Preview Assets.xcassets */; };
+		C1E7B0CD2C25A8B900B7D3F1 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7B0CC2C25A8B900B7D3F1 /* Block.swift */; };
+		C1E7B0CF2C25B63900B7D3F1 /* BlockBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7B0CE2C25B63900B7D3F1 /* BlockBankView.swift */; };
+		C1E7B0D22C25B73600B7D3F1 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7B0D12C25B73600B7D3F1 /* BlockView.swift */; };
+		C1E7B0D42C25B76A00B7D3F1 /* ProgramAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7B0D32C25B76A00B7D3F1 /* ProgramAreaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C11CECF82C52CB340051E002 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C11CECFA2C52CC6F0051E002 /* UserContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContext.swift; sourceTree = "<group>"; };
+		C11CECFD2C52D8150051E002 /* BlockDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockDisplayView.swift; sourceTree = "<group>"; };
+		C11CECFF2C52D83D0051E002 /* DisplayItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayItemView.swift; sourceTree = "<group>"; };
+		C11CED012C52D8500051E002 /* BlockAdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAdditionView.swift; sourceTree = "<group>"; };
+		C11CED042C52E8CE0051E002 /* CreateVariableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVariableButtonView.swift; sourceTree = "<group>"; };
+		C12865E32C5596E700ED1CAA /* TrashButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashButtonView.swift; sourceTree = "<group>"; };
+		C12865E52C559FB600ED1CAA /* GridBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBackgroundView.swift; sourceTree = "<group>"; };
+		C131E9CC2C459A3C00E9428D /* PlayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButtonView.swift; sourceTree = "<group>"; };
+		C13F90A92C46E8C40059F01D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C13F90AB2C4730130059F01D /* ConnectSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectSidebarView.swift; sourceTree = "<group>"; };
+		C19D82812C45ED020010EA43 /* RobotSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSocket.swift; sourceTree = "<group>"; };
+		C19D82832C461AFC0010EA43 /* BlockParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockParent.swift; sourceTree = "<group>"; };
+		C1A2F8D62C51920B0093601C /* BlockColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockColors.swift; sourceTree = "<group>"; };
+		C1A2F8D82C5197B20093601C /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PressStart2P-Regular.ttf"; path = "../../../Downloads/Press_Start_2P/PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
+		C1D6EC762C290B3E00EF4A7B /* BlockProps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockProps.swift; sourceTree = "<group>"; };
+		C1D6EC782C299CD100EF4A7B /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		C1D6EC7A2C29A6FB00EF4A7B /* IfExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfExtension.swift; sourceTree = "<group>"; };
+		C1D6EC7E2C29B29E00EF4A7B /* BlockPropsImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockPropsImpl.swift; sourceTree = "<group>"; };
+		C1E7B0BA2C25A63F00B7D3F1 /* FtcCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FtcCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E7B0BD2C25A63F00B7D3F1 /* FtcCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtcCodeApp.swift; sourceTree = "<group>"; };
+		C1E7B0BF2C25A63F00B7D3F1 /* ProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramView.swift; sourceTree = "<group>"; };
+		C1E7B0C12C25A64000B7D3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E7B0C42C25A64000B7D3F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1E7B0CC2C25A8B900B7D3F1 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		C1E7B0CE2C25B63900B7D3F1 /* BlockBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockBankView.swift; sourceTree = "<group>"; };
+		C1E7B0D12C25B73600B7D3F1 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		C1E7B0D32C25B76A00B7D3F1 /* ProgramAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramAreaView.swift; sourceTree = "<group>"; };
+		C1E7B0D52C26362400B7D3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E7B0B72C25A63F00B7D3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8429D2C2A1F530052E5A0 /* BlueSocketTestCommonLibrary in Frameworks */,
+				C1B8429F2C2A1F530052E5A0 /* Socket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11CECFC2C52D8080051E002 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0D12C25B73600B7D3F1 /* BlockView.swift */,
+				C11CECFD2C52D8150051E002 /* BlockDisplayView.swift */,
+				C11CECFF2C52D83D0051E002 /* DisplayItemView.swift */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		C11CED032C52E8BA0051E002 /* Block Bank */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0CE2C25B63900B7D3F1 /* BlockBankView.swift */,
+				C11CED042C52E8CE0051E002 /* CreateVariableButtonView.swift */,
+			);
+			path = "Block Bank";
+			sourceTree = "<group>";
+		};
+		C11CED092C52EA680051E002 /* Side Items */ = {
+			isa = PBXGroup;
+			children = (
+				C13F90AB2C4730130059F01D /* ConnectSidebarView.swift */,
+				C131E9CC2C459A3C00E9428D /* PlayButtonView.swift */,
+				C12865E32C5596E700ED1CAA /* TrashButtonView.swift */,
+			);
+			path = "Side Items";
+			sourceTree = "<group>";
+		};
+		C1E7B0B12C25A63F00B7D3F1 = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0BC2C25A63F00B7D3F1 /* FtcCode */,
+				C1E7B0BB2C25A63F00B7D3F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E7B0BB2C25A63F00B7D3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0BA2C25A63F00B7D3F1 /* FtcCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E7B0BC2C25A63F00B7D3F1 /* FtcCode */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0D52C26362400B7D3F1 /* Info.plist */,
+				C1E7B0CB2C25A8AA00B7D3F1 /* Models */,
+				C1E7B0D02C25B72F00B7D3F1 /* Views */,
+				C1E7B0BD2C25A63F00B7D3F1 /* FtcCodeApp.swift */,
+				C13F90A92C46E8C40059F01D /* ContentView.swift */,
+				C1D6EC7A2C29A6FB00EF4A7B /* IfExtension.swift */,
+				C1A2F8D82C5197B20093601C /* PressStart2P-Regular.ttf */,
+				C11CECF82C52CB340051E002 /* .gitignore */,
+				C1E7B0C12C25A64000B7D3F1 /* Assets.xcassets */,
+				C1E7B0C32C25A64000B7D3F1 /* Preview Content */,
+			);
+			path = FtcCode;
+			sourceTree = "<group>";
+		};
+		C1E7B0C32C25A64000B7D3F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0C42C25A64000B7D3F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1E7B0CB2C25A8AA00B7D3F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7B0CC2C25A8B900B7D3F1 /* Block.swift */,
+				C1A2F8D62C51920B0093601C /* BlockColors.swift */,
+				C19D82832C461AFC0010EA43 /* BlockParent.swift */,
+				C1D6EC762C290B3E00EF4A7B /* BlockProps.swift */,
+				C1D6EC7E2C29B29E00EF4A7B /* BlockPropsImpl.swift */,
+				C1D6EC782C299CD100EF4A7B /* Program.swift */,
+				C19D82812C45ED020010EA43 /* RobotSocket.swift */,
+				C11CECFA2C52CC6F0051E002 /* UserContext.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1E7B0D02C25B72F00B7D3F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C11CECFC2C52D8080051E002 /* Block */,
+				C11CED032C52E8BA0051E002 /* Block Bank */,
+				C11CED092C52EA680051E002 /* Side Items */,
+				C11CED012C52D8500051E002 /* BlockAdditionView.swift */,
+				C12865E52C559FB600ED1CAA /* GridBackgroundView.swift */,
+				C1E7B0BF2C25A63F00B7D3F1 /* ProgramView.swift */,
+				C1E7B0D32C25B76A00B7D3F1 /* ProgramAreaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E7B0B92C25A63F00B7D3F1 /* FtcCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E7B0C82C25A64000B7D3F1 /* Build configuration list for PBXNativeTarget "FtcCode" */;
+			buildPhases = (
+				C1E7B0B62C25A63F00B7D3F1 /* Sources */,
+				C1E7B0B72C25A63F00B7D3F1 /* Frameworks */,
+				C1E7B0B82C25A63F00B7D3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FtcCode;
+			packageProductDependencies = (
+				C1B8429C2C2A1F530052E5A0 /* BlueSocketTestCommonLibrary */,
+				C1B8429E2C2A1F530052E5A0 /* Socket */,
+			);
+			productName = FtcCode;
+			productReference = C1E7B0BA2C25A63F00B7D3F1 /* FtcCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E7B0B22C25A63F00B7D3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C1E7B0B92C25A63F00B7D3F1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C1E7B0B52C25A63F00B7D3F1 /* Build configuration list for PBXProject "FtcCode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E7B0B12C25A63F00B7D3F1;
+			packageReferences = (
+				C1B8429B2C2A1F530052E5A0 /* XCRemoteSwiftPackageReference "BlueSocket" */,
+			);
+			productRefGroup = C1E7B0BB2C25A63F00B7D3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E7B0B92C25A63F00B7D3F1 /* FtcCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E7B0B82C25A63F00B7D3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11CECF92C52CB340051E002 /* .gitignore in Resources */,
+				C1A2F8D92C5197B20093601C /* PressStart2P-Regular.ttf in Resources */,
+				C1E7B0C52C25A64000B7D3F1 /* Preview Assets.xcassets in Resources */,
+				C1E7B0C22C25A64000B7D3F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E7B0B62C25A63F00B7D3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11CECFB2C52CC6F0051E002 /* UserContext.swift in Sources */,
+				C1D6EC7F2C29B29E00EF4A7B /* BlockPropsImpl.swift in Sources */,
+				C1E7B0CF2C25B63900B7D3F1 /* BlockBankView.swift in Sources */,
+				C11CECFE2C52D8150051E002 /* BlockDisplayView.swift in Sources */,
+				C11CED002C52D83D0051E002 /* DisplayItemView.swift in Sources */,
+				C13F90AA2C46E8C40059F01D /* ContentView.swift in Sources */,
+				C1E7B0D22C25B73600B7D3F1 /* BlockView.swift in Sources */,
+				C12865E42C5596E700ED1CAA /* TrashButtonView.swift in Sources */,
+				C11CED052C52E8CE0051E002 /* CreateVariableButtonView.swift in Sources */,
+				C1D6EC7B2C29A6FB00EF4A7B /* IfExtension.swift in Sources */,
+				C12865E62C559FB600ED1CAA /* GridBackgroundView.swift in Sources */,
+				C1E7B0CD2C25A8B900B7D3F1 /* Block.swift in Sources */,
+				C13F90AC2C4730130059F01D /* ConnectSidebarView.swift in Sources */,
+				C1E7B0C02C25A63F00B7D3F1 /* ProgramView.swift in Sources */,
+				C1E7B0D42C25B76A00B7D3F1 /* ProgramAreaView.swift in Sources */,
+				C11CED022C52D8500051E002 /* BlockAdditionView.swift in Sources */,
+				C1A2F8D72C51920B0093601C /* BlockColors.swift in Sources */,
+				C19D82842C461AFC0010EA43 /* BlockParent.swift in Sources */,
+				C131E9CD2C459A3C00E9428D /* PlayButtonView.swift in Sources */,
+				C1D6EC792C299CD100EF4A7B /* Program.swift in Sources */,
+				C1D6EC772C290B3E00EF4A7B /* BlockProps.swift in Sources */,
+				C1E7B0BE2C25A63F00B7D3F1 /* FtcCodeApp.swift in Sources */,
+				C19D82822C45ED020010EA43 /* RobotSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1E7B0C62C25A64000B7D3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1E7B0C72C25A64000B7D3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E7B0C92C25A64000B7D3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FtcCode/Preview Content\"";
+				DEVELOPMENT_TEAM = N2UPA99GNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FtcCode/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simas.FtcCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1E7B0CA2C25A64000B7D3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FtcCode/Preview Content\"";
+				DEVELOPMENT_TEAM = N2UPA99GNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FtcCode/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simas.FtcCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E7B0B52C25A63F00B7D3F1 /* Build configuration list for PBXProject "FtcCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E7B0C62C25A64000B7D3F1 /* Debug */,
+				C1E7B0C72C25A64000B7D3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E7B0C82C25A64000B7D3F1 /* Build configuration list for PBXNativeTarget "FtcCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E7B0C92C25A64000B7D3F1 /* Debug */,
+				C1E7B0CA2C25A64000B7D3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1B8429B2C2A1F530052E5A0 /* XCRemoteSwiftPackageReference "BlueSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/BlueSocket.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1B8429C2C2A1F530052E5A0 /* BlueSocketTestCommonLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1B8429B2C2A1F530052E5A0 /* XCRemoteSwiftPackageReference "BlueSocket" */;
+			productName = BlueSocketTestCommonLibrary;
+		};
+		C1B8429E2C2A1F530052E5A0 /* Socket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1B8429B2C2A1F530052E5A0 /* XCRemoteSwiftPackageReference "BlueSocket" */;
+			productName = Socket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C1E7B0B22C25A63F00B7D3F1 /* Project object */;
+}
